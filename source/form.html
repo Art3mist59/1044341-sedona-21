@@ -2,7 +2,8 @@
 <html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>Главная|Седона</title>
+    <title>Форма отзыва|Седона</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
   </head>
   <body class="page-body">
     <header class="page-header">
@@ -23,15 +24,15 @@
     </header>
     <main class="page-main">
       <section class="intro">
-        <div class="intro-text">
+        <div class="intro-image__wrapper">
           <img src="https://via.placeholder.com/229x39" width="229" height="39" alt="SEDONA">
         </div>
+        <div class="intro-description">
+        <h1 class="into-description__title">Оставьте свой отзыв</h1>
+        <p class="intro-description__text">Помогите нашим отелям стать лучше! оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
+      </div>
       </section>
-      <section class="page-description">
-        <h2 class="page-description__title">Оставьте свой отзыв</h2>
-        <p class="page-description__text">Помогите нашим отелям стать лучше! оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
-      </section>
-      <section>
+      <section class="form">
         <form action="https://echo.htmlacademy.ru">
           <div class="fullname">
             <h2 class="fullname__title">Представтесь:</h2>
@@ -74,9 +75,12 @@
           </div>
           <div class="emotion">
             <h2>Опишите свои эмоции:</h2>
-            <textarea placeholder="Опишите подробно все свои восторги"></textarea>
+            <label>
+              <p class="visually-hidden">Отзыв</p>
+              <textarea placeholder="Опишите подробно все свои восторги"></textarea>
+            </label>
           </div>
-          <input type="submit" name="submit" value="Отправить отзыв" >
+          <input type="submit" name="submit" value="Отправить отзыв">
         </form>
       </section>
     </main>
@@ -89,7 +93,7 @@
       </ul>
       <div>
         <p>Разработано</p>
-        <a href="https://htmlacademy.ru/intensive/adaptive"><img src="https://via.placeholder.com/27x35" width="27" height="35" class="academy" alt="логотип html академии">></a>
+        <a href="https://htmlacademy.ru/intensive/adaptive"><img src="https://via.placeholder.com/27x35" width="27" height="35" class="academy" alt="логотип html академии"></a>
       </div>
     </footer>
   </body>
