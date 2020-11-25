@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Форма отзыва|Седона</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  </head>
+  <body class="page-body">
+    <header class="page-header">
+      <nav class="main-nav">
+        <a href="#!" class="page-header__logo">
+          <img src="https://via.placeholder.com/102x84" width="102" height="84" alt="Город Седона">
+        </a>
+        <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list">
+            <li class="main-nav__list__item"><a href="index.html">Главная</a></li>
+            <li class="main-nav__list__item"><a href="#!">Фото и видео</a></li>
+            <li class="main-nav__list__item"><a href="#!">Форма отзыва</a></li>
+            <li class="main-nav__list__item"><a href="#!">Html academy</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="page-main">
+      <section class="intro">
+        <div class="intro__image-wrapper">
+          <img src="https://via.placeholder.com/229x39" width="229" height="39" alt="SEDONA">
+        </div>
+        <div class="intro-description">
+        <h1 class="intro-description__title">Оставьте свой отзыв</h1>
+        <p class="intro-description__text">Помогите нашим отелям стать лучше! оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
+      </div>
+      </section>
+      <section class="form">
+        <form action="https://echo.htmlacademy.ru">
+          <div class="fullname">
+            <h2 class="fullname__title">Представтесь:</h2>
+            <label>
+              Имя<sup>*</sup>:
+              <input type="text" name="firstname" placeholder="Петр" required="">
+            </label>
+            <label>
+              Фамилия<sup>*</sup>:
+              <input type="text" name="lastname" placeholder="Иванов" required="">
+            </label>
+            <label>
+              Отчество<sup>*</sup>:
+              <input type="text" name="midname" placeholder="Александрович" required="">
+            </label>
+          </div>
+          <div class="contacts">
+            <h2 class="contacts">Контактная информация:</h2>
+            <label>
+              Контакный телефон<sup>*</sup>:
+              <input type="tel" name="tel" placeholder="Введите телефон" required="">
+            </label>
+            <label>
+              Электронная почта<sup>*</sup>:
+              <input type="email" name="email" placeholder="Введите e-mail" required="">
+            </label>
+          </div>
+          <div class="feeling">
+            <h2>Ваше общее впечатление:</h2>
+            <label><input type="radio" name="feeling" value="good">Скорее положительное</label>
+            <label><input type="radio" name="feeling" value="bad">Скорее отрицательное</label>
+            <label><input type="radio" name="feeling" value="idk">Затрудняюсь ответить</label>
+          </div>
+          <div class="visited">
+            <h2>Посещенные достопримечательности:</h2>
+            <label><input type="checkbox" name="place" value="bridge">Мост Дьявола</label>
+            <label><input type="checkbox" name="place" value="bell">Гора-Колокол</label>
+            <label><input type="checkbox" name="place" value="park">Слайд-Парк</label>
+            <label><input type="checkbox" name="place" value="mountain">Красные Скалы</label>
+          </div>
+          <div class="emotion">
+            <h2>Опишите свои эмоции:</h2>
+            <label for="comment">Отзыв</label>
+            <textarea placeholder="Опишите подробно все свои восторги" id="comment"></textarea>
+          </div>
+          <input type="submit" name="submit" value="Отправить отзыв">
+        </form>
+      </section>
+    </main>
+    <footer class="page-footer">
+      <h2 class="tag">#visitsedona</h2>
+      <ul class="page-footer__social social">
+        <li class="social__item"><a href="#!"><img src="https://via.placeholder.com/46x48" width="46" height="48" alt="Twitter"></a></li>
+        <li class="social__item"><a href="#!"><img src="https://via.placeholder.com/46x48" width="46" height="48" alt="Facebook"></a></li>
+        <li class="social__item"><a href="#!"><img src="https://via.placeholder.com/46x48" width="46" height="48" alt="Youtube"></a></li>
+      </ul>
+      <div>
+        <p>Разработано</p>
+        <a href="https://htmlacademy.ru/intensive/adaptive"><img src="https://via.placeholder.com/27x35" width="27" height="35" class="academy" alt="логотип html академии"></a>
+      </div>
+    </footer>
+  </body>
+</html>
